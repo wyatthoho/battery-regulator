@@ -62,7 +62,10 @@ def output_csv(csv_name: str, freqs: np.ndarray, accs: np.ndarray):
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for freq, acc in zip(freqs, accs):
-            row = {CSV_FIELD_1: round(freq, CSV_ROUND), CSV_FIELD_2: round(acc, CSV_ROUND)}
+            row = {
+                CSV_FIELD_1: round(freq, CSV_ROUND),
+                CSV_FIELD_2: round(acc, CSV_ROUND)
+            }
             writer.writerow(row)
 
 
