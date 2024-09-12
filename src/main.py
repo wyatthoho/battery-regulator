@@ -1,10 +1,10 @@
-from math import pi
 import csv
+import math
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-FREQ_MIN, FREQ_MAX, INC_NUM = 7, 200, 1000
+FREQ_MIN, FREQ_MAX, INC_NUM = 10, 30, 50
 G = 9806.65  # mm/s2
 ACC_TGT = 2 * G
 ACC_MIN = 1 * G
@@ -14,7 +14,7 @@ FIG_SIZE = [4.8, 3.0]
 FIG_TITLE = 'Acceleration for UN38.3'
 FIG_LABEL_X = 'Frequency, Hz'
 FIG_LABEL_Y = 'Acceleration, g'
-FIG_YLIM = [0, 2.2]
+FIG_YLIM = [0.8, 2.2]
 
 CSV_NAME = 'un383_acceleration.csv'
 CSV_FIELD_1, CSV_FIELD_2 = 'freq(Hz)', 'acceleration(g)'
@@ -22,11 +22,11 @@ CSV_ROUND = 5
 
 
 def get_disp(freq: float, a_amp: float) -> float:
-    return a_amp / (2 * pi * freq)**2
+    return a_amp / (2 * math.pi * freq)**2
 
 
 def get_acc(freq: float, d_amp: float) -> float:
-    return d_amp * (2 * pi * freq)**2
+    return d_amp * (2 * math.pi * freq)**2
 
 
 def get_accs(freqs: np.ndarray) -> np.ndarray:
