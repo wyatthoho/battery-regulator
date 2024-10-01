@@ -205,6 +205,27 @@ total cumulative energy of the record, to the time required to
 accumulate from 5% to 95% of the total cumulative energy of the 
 record.
 
+### **Analytical qualification**
+
+Using the design level seismic loads corresponding to 50% of the
+performance level loading defined by the response spectra of Figure
+A.1 for the high performance levels.
+
+Terminal attachments representing the in-service configuration of 
+the equipment ***terminal masses*** should be included:
+
+- 500 kV and greater: 11 kg
+- Greater than 145 kV to less than 500 kV: 7 kg
+
+The incremental increase in demand on the equipment insulator due
+to application of the moment amplification factor (MAF) or equivalent 
+terminal force (ETF) shall be applied for equipment qualified by 
+analysis in accordance with A.1.6.
+
+The ***SRSS*** method, as used in this recommended practice, combines local seismic forces acting on a particular element of a structure
+system. In lieu of the SRSS combination of three orthogonal earthquake 
+components, a ***100/40/40*** combination rule may be used.
+
 ---
 
 ## Annex J Station batteries and battery racks
