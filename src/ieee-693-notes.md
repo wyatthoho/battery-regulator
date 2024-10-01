@@ -174,6 +174,37 @@ the spectrum depicted in ***Figure A.1***.
 
 ![](../img/ieee-693-notes/required-response-spectrum.png)
 
+### **Time history shake-table test qualification**
+
+Terminal masses shall be attached to conductor connection points
+in accordance with A.1.2.3. Following time history test, perform
+static pull test on the insulator element in accordance with
+A.3.
+
+The ***resonant frequency search test*** is for determing the 
+resonant frequencies and low response level damping of equipment.
+A ***sine sweep*** or ***random noise*** excitation test shall be 
+used. A frequency search above ***33 Hz*** is not required. It is
+suggested that amplitude of ***0.1 g*** be used.
+
+***Theoretical motions*** refer to input motions developed by a 
+variety of software packages and used as input to the shake table.
+***Table output motions*** refer to motions that are measured from
+instruments mounted on the shake-table platform.
+
+The theoretical response spectrum developed for testing shall
+envelop the RRS. When the high seismic level is specified, the
+performance level spectra with 5% damping as shown in Figure A.1
+shall be used. The theoretical response spectrum for testing shall 
+be computed at 5% damping and shall include the lower corner
+point frequency of the RRS (1.1 Hz).
+
+The ***strong part ratio*** of a given record is defined as the 
+ratio of the time required to accumulate from 25% to 75% of the 
+total cumulative energy of the record, to the time required to 
+accumulate from 5% to 95% of the total cumulative energy of the 
+record.
+
 ---
 
 ## Annex J Station batteries and battery racks
