@@ -156,18 +156,21 @@ the spectrum depicted in ***Figure A.1***.
 
 ## Annex J Station batteries and battery racks
 
+### **Battery racks**
+
 The seismic withstand capability of battery racks shall demonstrated
 as follows:
 
-- Non-rigid racks of three or more stacks: By performance level time history shake-table testing (J.4.1)
-- Non-rigid racks of two stacks: By dynamic analysis (J.4.2)
-- Rigid racks and all racks of ***one stack***: By static analysis (***J.4.3***)
+- Non-rigid racks of three or more stacks: By performance level time history shake-table testing
+- Non-rigid racks of two stacks: By dynamic analysis
+- Rigid racks and all racks of one stack: By ***static analysis***
 
+### **Static analysis**
 
-> **J.4.3 Static analysis**:
-> Battery racks shall be qualified according to the requirements of
-> **A.1** and **A.1.4.5**.
+Battery racks shall be qualified according to the requirements of
+**A.1** and **A.1.4.5**.
 
+### **Acceptance criteria**
 
-
-...
+The general criteria of ***A.2*** or as applicable to the 
+qualification method shall be met.
