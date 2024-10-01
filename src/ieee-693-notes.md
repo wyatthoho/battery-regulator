@@ -137,6 +137,18 @@ less than, but approaching, ***0.5 g***.
 
 ## Annex A
 
+### **Qualification configuration**
+
+The equipment should be ***tested*** or ***analyzed*** in its 
+equivalent in-service configuration, including support structures.
+
+### **Normal operating loads**
+
+Normal operating loads are to be considered to act simultaneously 
+with seismic and dead loads.
+
+### **Triaxial analysis and testing**
+
 Analysis and time history testing shall be triaxial with simulation
 of ***translational ground accelerations*** in three directions. A 
 test response spectrum that envelops the RRS shall be applied in the
@@ -144,13 +156,26 @@ two perpendicular horizontal axes together with a response spectrum
 in the vertical axis that shall have an acceleration of ***80%*** 
 of that in the horizontal axes.
 
+### ***Damping***
+
+Damping can either be assumedat a conservative level (5.6) or 
+determined by any of the following methods:
+
+- Measuring the decay rate
+- Measuring the half-power bandwidth
+- Curve fitting to frequency response methods
+- Time domain curve fitting
+
+### **High seismic qualification level**
+
 Qualifications to the ***high*** seismic qualification level shall
 meet the relevant requirements given in Annex A in conjunction with 
 the spectrum depicted in ***Figure A.1***.
 
-### **A.1.4.5 Static Analysis**
+![](../img/ieee-693-notes/required-response-spectrum.png)
 
-...
+
+
 
 ---
 
