@@ -156,7 +156,7 @@ two perpendicular horizontal axes together with a response spectrum
 in the vertical axis that shall have an acceleration of ***80%*** 
 of that in the horizontal axes.
 
-### ***Damping***
+### **Damping**
 
 Damping can either be assumedat a conservative level (5.6) or 
 determined by any of the following methods:
@@ -173,9 +173,6 @@ meet the relevant requirements given in Annex A in conjunction with
 the spectrum depicted in ***Figure A.1***.
 
 ![](../img/ieee-693-notes/required-response-spectrum.png)
-
-
-
 
 ---
 
