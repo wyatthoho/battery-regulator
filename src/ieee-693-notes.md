@@ -226,6 +226,20 @@ The ***SRSS*** method, as used in this recommended practice, combines local seis
 system. In lieu of the SRSS combination of three orthogonal earthquake 
 components, a ***100/40/40*** combination rule may be used.
 
+#### ***Static Analysis***
+
+The forces on each component of the equipment shall be obtained
+by multiplying the values of the ***mass*** of the components
+by the ***acceleration*** specified in the principal directions.
+
+The vertical seismic forces shall act simultaneously with both
+horizontal seismic forces. The three forces shall be using one of
+the ***combination techniques*** in A.1.4.4.
+
+When the ***high*** seismic level is specified, the static analysis 
+shall use a ***design*** level load consisting of ***0.5 g*** in the
+two horizontal directions and ***0.4 g*** in the vertical direction.
+
 ---
 
 ## Annex J Station batteries and battery racks
