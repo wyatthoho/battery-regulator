@@ -248,6 +248,36 @@ When the ***high*** seismic level is specified, the static analysis
 shall use a ***design*** level load consisting of ***0.5 g*** in the
 two horizontal directions and ***0.4 g*** in the vertical direction.
 
+## Annex A.2 Acceptance criteria
+
+### **Design level load combinations**
+
+Where appropriate this recommended practice recognizes both ***ASD***
+and ***LRFD*** design methodologies. The load combinations to be used
+for ASD and LRFD methods shall be as follows:
+
+- \\(ASD = 1.0D + 1.0E_{DL} + 1.0OP\\)
+- \\(ASD = 0.6D + 1.0E_{DL} + 1.0OP\\)
+- \\(LRFD = 1.2D + 1.4E_{DL} + 1.0OP\\)
+- \\(LRFD = 0.9D + 1.4E_{DL} + 1.0OP\\)
+
+Use the more critical of the two equations, where:
+
+- \\(D\\) is the dead load
+- \\(E_{DL}\\) is the earthquake load demand from the design level spectra
+- \\(OP\\) is the normal operating load
+
+### **Design level allowable strength/stress**
+
+The total load/stresses found shall not exceed the allowable 
+load/stresses. Allowable load/stress shall be as follows,
+
+- ***Steel***. Latest edition of the AISC Manual of Steel Construction
+- ***Aluminum***. Latest edition of the Aluminum Association's Aluminum Design Manual.
+  - ***ASD***: Substation structures shall be designed with the safety factors specified for bridge-type structures.
+  - ***LRFD***: The LRFD capacities given in the Aluminum Design Manual have resistance factors calibrated for building-type structures only. Consequently, the specifics of the design methodology are inconsistent with the objectives of this recoommended practice and should therefore not be used.
+- ...
+
 ---
 
 ## Annex J Station batteries and battery racks
