@@ -1,2 +1,4 @@
-matplotlib
-numpy
+beautifulsoup4==4.12.3
+Markdown==3.6
+matplotlib==3.9.2
+numpy==2.1.1
