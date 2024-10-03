@@ -8,7 +8,7 @@ import markdown
 HTML_TEMPLATE = '.\\build\\html_template.html'
 BS4_PARSER = 'html.parser'
 IMG_ALT_MESSAGE = 'Please login Xing\'s SharePoint using your current browser to view this image.'
-IMG_HOST_URL = 'https://lmdxingmobility.sharepoint.com/sites/XINGMOBILITYCOM/Shared Documents/Xing-Engineering/Computer-Aided Engineering/tips/hypermesh-notes-img'
+IMG_HOST_URL = 'https://lmdxingmobility.sharepoint.com/sites/XINGMOBILITYCOM/Shared Documents/Xing-Engineering/Computer-Aided Engineering/regulation/battery-regulator-img'
 QUERY = f'.png?{int(time.time())}'
 
 
