@@ -12,12 +12,9 @@ essential for structural analysis.
 
 ## Contents
 
-Calculate the acceleration input data for vibration 
-testing in accordance with UN38.3:
-
-**`.\src\un383_acceleration_generator.py`**
-
-The key requirements for seismic testing and analysis 
-from IEEE 693 are summarized in the following document:
-
-**`.\src\ieee-693-notes.md`**
+1. **`.\src\un383_acceleration_generator.py`**: A Python script to 
+   generate the acceleration input data for vibration testing in accordance
+   with **UN38.3**.
+2. **`.\src\ieee-693-notes.md`**: The key requirements for **seismic** 
+   testing and analysis from **IEEE 693** are summarized in the 
+   following document.
