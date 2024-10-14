@@ -68,4 +68,17 @@ objectives:
 
 ## Office Vibration
 
+### Office Vibration Environment
 
+Telecommunications equipment may be subjected to low-level vibration in 
+service that is typically caused by nearby rotating equipment, outside 
+rail or truck traffic, or construction work in adjacent buildings.
+
+### Transportation Environment
+
+Equipment will generally experience maximum vibration in the 
+non-operating, packaged condition, during commercial transportation.
+There are low-level vibrations of randomly distributed frequencies 
+reaching **1 to 500 Hz** with occasional transient peaks.
+
+![](../img/gr-63-core/transportation-environment.png)
