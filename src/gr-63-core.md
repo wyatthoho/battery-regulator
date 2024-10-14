@@ -1,15 +1,52 @@
 # Notes of GR-63-CORE
 
-## Equipment Handling
-
-### Packaged Equipment Shock Criteria
+## Packaged Equipment Drop Tests
 
 Category B (> 100 kg) containers are subjected to free-fall, corner, 
 and edge drops. The criteria below apply to Category B containers.
 
 ![](../img/gr-63-core/drop-height-packaged-b.png)
 
-### Unpackaged Equipment Shock Criteria
+### Free-Fall Drop
+
+For Equipment Under Test (EUT) designed with handling hardware (e.g., 
+eye bolts, etc.), the unit should be supported from it and allowed to 
+assume the resultant position.
+
+Because the rest face may not be horizontal, the prescribed drop height
+ should be measured from the lowest point on the equipment to the floor.
+
+![](../img/gr-63-core/free-fall-drop.png)
+
+### Edge Drop
+
+The support shall be the same height as the drop height. Raise the test 
+edge to the drop height and release the EUT. After the EUT has impacted 
+the test surface, *it shall be retained from toppling over*.
+
+![](../img/gr-63-core/edge-drop.png)
+
+### Corner Drop
+
+The corner drop is performed as described in two different methods. 
+The selection of the test method is based on engineering judgment of 
+the more severe for the given EUT.
+
+In Method 1, the support shall be the same height as the drop height. 
+The EUT ts located on the support to maximize the impact on the corner
+under test. Raise the test corner to drop height and release the EUT.
+After the EUT has impacted the test surface, it shall be restrained 
+from toppling over.
+
+In Method 2, raise the test corner to drop height and release the EUT. 
+After the EUT has impacted the test surface, it shall be restrained from 
+toppling over.
+
+![](../img/gr-63-core/corner-drop.png)
+
+---
+
+## Unpackaged Equipment Drop Tests
 
 ![](../img/gr-63-core/drop-height-unpackaged.png)
 
