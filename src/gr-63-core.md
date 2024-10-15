@@ -111,6 +111,28 @@ exceed **75 mm**.
 greater than **2.0 Hz** (necessary) and **6.0 Hz** (desirable) as 
 determined by the swept sine survey.
 
+### Earthquake Test Methods
+
+Telecommunications equipment is earthquake tested using a prescribed 
+waveform. The acceleration-time history waveform, **WERTEQII**, has been 
+synthesized from several typical earthquakes and for different building 
+and soil site conditions.
+
+Waveforms are available from Bellcore on computer diskette in ASCII code. 
+There are three waveforms: one for Zones 1 and 2 testing, one for Zone 3 
+testing, and one for Zone 4 testing. For information and copies of the 
+waveforms, contact Richard Kluge at (201)829-4669 or rgpk@notes.cc.bellcore.com.
+
+![](../img/gr-63-core/verteqii-zone4.png)
+
+When reproducing the Bellcore waveform, the shaker table's analyzed 
+acceleration, known as the Test Response Spectrum (**TRS**), must meet or 
+exceed the Required Response Spectrum (**RRS**) for the applicable 
+Earthquake Risk Zone in the range from **1.0 to 50 Hz**. The TRS is 
+determined using a damping level of **2%**.
+
+![](../img/gr-63-core/required-response-spectrum.png)
+
 ---
 
 ## Framework and Anchor Criteria
