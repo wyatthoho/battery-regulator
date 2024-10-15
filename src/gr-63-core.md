@@ -77,7 +77,7 @@ surface.
 
 ---
 
-## Earthquake Environment and Criteria
+## Synthesized Waveform Test
 
 Zone 4 corresponds to the highest risk areas, Zone 3 the next highest, 
 and so on.
@@ -144,11 +144,10 @@ to 7 Hz.
 
 ---
 
-## Framework and Anchor Criteria
+## Static Pull Test
 
-For framework used in earthquake risk zones, the **static pull testing**
-procedures of Section 5.4.1.4 should be followed, meeting these
-objectives:
+For framework used in earthquake risk zones, the static pull testing should 
+meeting these objectives:
 
 - The maximum single amplitude deflection at the top of the framework 
   should not exceed **75 mm**.
@@ -168,15 +167,19 @@ of this load. Zones 1 and 2 may use 0.4 of this load.
 
 ---
 
-## Office Vibration
-
-### Office Vibration Environment
+## Office Vibration Test
 
 Telecommunications equipment may be subjected to low-level vibration in 
 service that is typically caused by nearby rotating equipment, outside 
 rail or truck traffic, or construction work in adjacent buildings.
 
-### Transportation Environment
+Subject the equipment to a **swept sine survey** at an acceleration amplitude 
+of **0.1 g** from **5 to 100 Hz** and back to 5 Hz at a rate of 0.1 
+octave/minute.
+
+---
+
+## Transportation Vibration Test
 
 Equipment will generally experience maximum vibration in the 
 non-operating, packaged condition, during commercial transportation.
@@ -184,3 +187,9 @@ There are low-level vibrations of randomly distributed frequencies
 reaching **1 to 500 Hz** with occasional transient peaks.
 
 ![](../img/gr-63-core/transportation-environment.png)
+
+Subject the package to a single sine sweep (curve 1 or 2 as indicated in 
+Figure 4-3) corresponding to its anticipated mode of transportation. The 
+indicated frequency sweep may be performed continuously or sequentially, 
+depending on the capability of the test facility. The upper frequency limit 
+may be reduced to 60 Hz if packaging isolation occurs below this point.
