@@ -7,6 +7,14 @@ and edge drops. The criteria below apply to Category B containers.
 
 ![](../img/gr-63-core/drop-height-packaged-b.png)
 
+The packaged equipment is dropped once on each of the following locations:
+
+- Surface: S1, S2, S3
+- Edge: E1, E2, E3
+- Corner: C1, C2, C3, C4
+
+![](../img/gr-63-core/drop-surfaces.png)
+
 ### Free-Fall Drop
 
 For Equipment Under Test (EUT) designed with handling hardware (e.g., 
@@ -48,7 +56,24 @@ toppling over.
 
 ## Unpackaged Equipment Drop Tests
 
+The unpackaged equipment shall not sustain any physical damage or 
+deteriorate in functional performance when subjected to the applicable 
+shock levels listed in the table below.
+
 ![](../img/gr-63-core/drop-height-unpackaged.png)
+
+The EUT is subject to the following drops:
+
+![](../img/gr-63-core/drop-surfaces.png)
+
+- Rest Surface: S1
+- Corner: C1, C2
+- Edge: E1, E3
+
+Drop the equipment once on each corner and edge adjacent to the rest 
+surface.
+
+![](../img/gr-63-core/equipment-handling.png)
 
 ---
 
