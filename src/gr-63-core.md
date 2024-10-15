@@ -133,6 +133,15 @@ determined using a damping level of **2%**.
 
 ![](../img/gr-63-core/required-response-spectrum.png)
 
+Verify the TRS meets or exceeds the RRS in the frequency range from 1.0 to 50 Hz. 
+If the TRS is below the RRS at any point, use the last drive signal and table 
+acceleration to update the transfer function. Apply it to the Bellcore waveform 
+to generate a new drive signal, and retest the equipment. Repeat this step as 
+necessary.
+
+The TRS should not exceed the RRS by more than 30% in the frequency range of 1 
+to 7 Hz.
+
 ---
 
 ## Framework and Anchor Criteria
@@ -147,6 +156,15 @@ objectives:
   within **6 mm** when the load is removed.
 - The framework should sustain no permanent structural damage during
   static framework testing.
+
+Follow the procedure below applying a load in both directions of the
+front-to-back axis and both direcctions of the side-to-side axxis of the 
+framework.
+
+Record the deflection and load as the load increases from 0 up to a load 
+equal to or greater than the total weight of the equipped framework plus 
+the overhead cable weight, for Zone 4 level testing. Zone 3 may use 0.6 
+of this load. Zones 1 and 2 may use 0.4 of this load.
 
 ---
 
