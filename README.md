@@ -12,9 +12,11 @@ essential for structural analysis.
 
 ## Contents
 
-1. **`.\src\un383_acceleration_generator.py`**: A Python script to 
-   generate the acceleration input data for vibration testing in accordance
-   with **UN38.3**.
-2. **`.\src\ieee-693-notes.md`**: The key requirements for **seismic** 
-   testing and analysis from **IEEE 693** are summarized in the 
-   following document.
+1. **`.\src\un383_acceleration_generator.py`**: This Python script 
+   generates acceleration input data for vibration testing in accordance 
+   with *UN38.3*.
+2. **`.\src\ieee-693-notes.md`**: This document summarizes the key 
+   requirements for seismic testing and analysis as outlined in *IEEE 693*.
+3. **`.\src\gr-63-core.md`**: This document outlines the key requirements 
+   for drop tests, earthquake tests, office vibration tests, and transport 
+   vibration tests from *GR-63-CORE*.
