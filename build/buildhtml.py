@@ -9,6 +9,7 @@ HTML_TEMPLATE = '.\\build\\html_template.html'
 BS4_PARSER = 'html.parser'
 IMG_ALT_MESSAGE = 'Please login Xing\'s SharePoint using your current browser to view this image.'
 IMG_HOST_URL = 'https://lmdxingmobility.sharepoint.com/sites/XINGMOBILITYCOM/Shared Documents/Xing-Engineering/Computer-Aided Engineering/regulation/battery-regulator-img'
+LOGO_URL = 'https://lmdxingmobility.sharepoint.com/sites/XINGMOBILITYCOM/Shared Documents/Xing-Engineering/Computer-Aided Engineering/tips/hypermesh-notes-img/xm-logo.ico'
 QUERY = f'.png?{int(time.time())}'
 
 
@@ -56,6 +57,14 @@ def main(md_paths: List[str]):
         path_html = path_md\
             .replace('.\\src\\', '.\\html\\')\
                 .replace('.md', '.html')
+        
+        head = soup.find('head')
+        h1 = soup.find('h1')
+        title = soup.new_tag('title')
+        title.string = ' | '.join(['XING', 'CAE Documents', h1.string])
+        link = soup.new_tag('link', rel='icon', type='image/x-icon', href=LOGO_URL)
+        head.insert(0, title)
+        head.insert(1, link)
 
         with open(path_html, 'w', encoding='UTF-8') as f:
             f.write(str(soup))
