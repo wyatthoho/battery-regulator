@@ -3,7 +3,7 @@ import os
 import buildhtml
 
 
-def get_md_paths(src_path: str = '.\\src') -> list:
+def get_md_paths(src_path: str = '.\\markdown') -> list:
     md_paths = [
         os.path.join(src_path, path)
         for path in os.listdir(src_path) if path.endswith('.md')
