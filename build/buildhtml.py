@@ -8,8 +8,8 @@ import markdown
 HTML_TEMPLATE = '.\\build\\html_template.html'
 BS4_PARSER = 'html.parser'
 IMG_ALT_MESSAGE = 'Please login Xing\'s SharePoint using your current browser to view this image.'
-IMG_HOST_URL = 'https://lmdxingmobility.sharepoint.com/sites/XINGMOBILITYCOM/Shared Documents/Xing-Engineering/Computer-Aided Engineering/__img__/battery-regulator-img'
-LOGO_URL = 'https://lmdxingmobility.sharepoint.com/sites/XINGMOBILITYCOM/Shared Documents/Xing-Engineering/Computer-Aided Engineering/__img__/xm-logo.ico'
+IMG_HOST_URL = '//10.0.0.23/rd/Thermal&Adv Engineering/CAE/battery-regulator/images'
+LOGO_URL = '//10.0.0.23/rd/Thermal&Adv Engineering/CAE/battery-regulator/images/xm-logo.ico'
 QUERY = f'.png?{int(time.time())}'
 
 
