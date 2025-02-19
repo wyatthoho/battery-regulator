@@ -25,7 +25,7 @@ def replace_img_link(line: str) -> str:
     if 'img alt="" src=' in line:
         return line\
             .replace('alt=""', f'alt="{IMG_ALT_MESSAGE}"')\
-            .replace('../img', IMG_HOST_URL)\
+            .replace('../images', IMG_HOST_URL)\
             .replace('.png', QUERY)
     return line
 
@@ -55,7 +55,7 @@ def main(md_paths: List[str]):
         convert_img_to_label(body_soup)
         soup.body.append(body_soup)
         path_html = path_md\
-            .replace('.\\src\\', '.\\html\\')\
+            .replace('.\\markdown\\', '.\\html\\')\
                 .replace('.md', '.html')
         
         head = soup.find('head')

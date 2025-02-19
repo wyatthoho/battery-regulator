@@ -5,7 +5,7 @@
 Category B (> 100 kg) containers are subjected to free-fall, corner, 
 and edge drops. The criteria below apply to Category B containers.
 
-![](../img/gr-63-core/drop-height-packaged-b.png)
+![](../images/gr-63-core/drop-height-packaged-b.png)
 
 The packaged equipment is dropped once on each of the following locations:
 
@@ -13,7 +13,7 @@ The packaged equipment is dropped once on each of the following locations:
 - Edge: E1, E2, E3
 - Corner: C1, C2, C3, C4
 
-![](../img/gr-63-core/drop-surfaces.png)
+![](../images/gr-63-core/drop-surfaces.png)
 
 ### Free-Fall Drop
 
@@ -24,7 +24,7 @@ assume the resultant position.
 Because the rest face may not be horizontal, the prescribed drop height
  should be measured from the lowest point on the equipment to the floor.
 
-![](../img/gr-63-core/free-fall-drop.png)
+![](../images/gr-63-core/free-fall-drop.png)
 
 ### Edge Drop
 
@@ -32,7 +32,7 @@ The support shall be the same height as the drop height. Raise the test
 edge to the drop height and release the EUT. After the EUT has impacted 
 the test surface, *it shall be retained from toppling over*.
 
-![](../img/gr-63-core/edge-drop.png)
+![](../images/gr-63-core/edge-drop.png)
 
 ### Corner Drop
 
@@ -50,7 +50,7 @@ In Method 2, raise the test corner to drop height and release the EUT.
 After the EUT has impacted the test surface, it shall be restrained from 
 toppling over.
 
-![](../img/gr-63-core/corner-drop.png)
+![](../images/gr-63-core/corner-drop.png)
 
 ---
 
@@ -60,11 +60,11 @@ The unpackaged equipment shall not sustain any physical damage or
 deteriorate in functional performance when subjected to the applicable 
 shock levels listed in the table below.
 
-![](../img/gr-63-core/drop-height-unpackaged.png)
+![](../images/gr-63-core/drop-height-unpackaged.png)
 
 The EUT is subject to the following drops:
 
-![](../img/gr-63-core/drop-surfaces.png)
+![](../images/gr-63-core/drop-surfaces.png)
 
 - Rest Surface: S1
 - Corner: C1, C2
@@ -73,7 +73,7 @@ The EUT is subject to the following drops:
 Drop the equipment once on each corner and edge adjacent to the rest 
 surface.
 
-![](../img/gr-63-core/equipment-handling.png)
+![](../images/gr-63-core/equipment-handling.png)
 
 ---
 
@@ -123,7 +123,7 @@ There are three waveforms: one for Zones 1 and 2 testing, one for Zone 3
 testing, and one for Zone 4 testing. For information and copies of the 
 waveforms, contact Richard Kluge at (201)829-4669 or rgpk@notes.cc.bellcore.com.
 
-![](../img/gr-63-core/verteqii-zone4.png)
+![](../images/gr-63-core/verteqii-zone4.png)
 
 When reproducing the Bellcore waveform, the shaker table's analyzed 
 acceleration, known as the Test Response Spectrum (**TRS**), must meet or 
@@ -131,7 +131,7 @@ exceed the Required Response Spectrum (**RRS**) for the applicable
 Earthquake Risk Zone in the range from **1.0 to 50 Hz**. The TRS is 
 determined using a damping level of **2%**.
 
-![](../img/gr-63-core/required-response-spectrum.png)
+![](../images/gr-63-core/required-response-spectrum.png)
 
 Verify the TRS meets or exceeds the RRS in the frequency range from 1.0 to 50 Hz. 
 If the TRS is below the RRS at any point, use the last drive signal and table 
@@ -186,7 +186,7 @@ non-operating, packaged condition, during commercial transportation.
 There are low-level vibrations of randomly distributed frequencies 
 reaching **1 to 500 Hz** with occasional transient peaks.
 
-![](../img/gr-63-core/transportation-environment.png)
+![](../images/gr-63-core/transportation-environment.png)
 
 Subject the package to a single sine sweep (curve 1 or 2 as indicated in 
 Figure 4-3) corresponding to its anticipated mode of transportation. The 

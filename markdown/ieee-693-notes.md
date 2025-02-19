@@ -67,14 +67,14 @@ The ***required response spectra (RRS)*** used in a performance level
 qualification corresponds to the "High Performance Level 
 Response Spectrum" depicted in ***Figure A.1***.
 
-![](../img/ieee-693-notes/required-response-spectrum-high.png)
+![](../images/ieee-693-notes/required-response-spectrum-high.png)
 
 The accelerations of the response spectra used for the design level
 approach at the moderate and high seismic qualification levels are 
 half of the performance level spectra at any given frequency and level 
 of damping.
 
-![](../img/ieee-693-notes/required-response-spectrum-moderate.png)
+![](../images/ieee-693-notes/required-response-spectrum-moderate.png)
 
 Irrespective of seismic qualification level or seismic qualification 
 method, the spectrum shape is consistent. The spectra contained in 
