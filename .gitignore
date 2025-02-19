@@ -1,4 +1,6 @@
-env/
-img/
+.vscode
+~*
 *.csv
-__pycache__
+**/__pycache__
+**/env
+**/images
