@@ -266,16 +266,16 @@ Where appropriate this recommended practice recognizes both ***ASD***
 and ***LRFD*** design methodologies. The load combinations to be used
 for ASD and LRFD methods shall be as follows:
 
-- \\(ASD = 1.0D + 1.0E_{DL} + 1.0OP\\)
-- \\(ASD = 0.6D + 1.0E_{DL} + 1.0OP\\)
-- \\(LRFD = 1.2D + 1.4E_{DL} + 1.0OP\\)
-- \\(LRFD = 0.9D + 1.4E_{DL} + 1.0OP\\)
+- $ASD = 1.0D + 1.0E_{DL} + 1.0OP$
+- $ASD = 0.6D + 1.0E_{DL} + 1.0OP$
+- $LRFD = 1.2D + 1.4E_{DL} + 1.0OP$
+- $LRFD = 0.9D + 1.4E_{DL} + 1.0OP$
 
 Use the more critical of the two equations, where:
 
-- \\(D\\) is the dead load
-- \\(E_{DL}\\) is the earthquake load demand from the design level spectra
-- \\(OP\\) is the normal operating load
+- $D$ is the dead load
+- $E_{DL}$ is the earthquake load demand from the design level spectra
+- $OP$ is the normal operating load
 
 ### **Design Level Allowable Strength/Stress**
 
