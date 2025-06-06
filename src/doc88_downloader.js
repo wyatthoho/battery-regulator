@@ -10,7 +10,9 @@
  * @param {number} endPage - The ending page number.
  */
 function downloadPages(startPage, endPage) {
-    // Loop through the page range
+    const totalPages = endPage - startPage + 1;
+    const digitNumber = totalPages.toString().length; 
+
     for (let pageNumber = startPage; pageNumber <= endPage; pageNumber++) {
         // Get the corresponding canvas element for the page
         const pageCanvas = document.getElementById('page_' + pageNumber);
@@ -26,7 +28,7 @@ function downloadPages(startPage, endPage) {
 
         // Set a timeout to delay the download of the page image
         setTimeout(() => {
-            downloadPageAsImage(pageCanvas, pageNumber);
+            downloadPageAsImage(pageCanvas, pageNumber, digitNumber);
         }, delayTime);
     }
 }
@@ -37,9 +39,11 @@ function downloadPages(startPage, endPage) {
  *
  * @param {HTMLCanvasElement} canvas - The canvas element for the page.
  * @param {number} pageNumber - The page number.
+ * @param {number} digitNumber - The digit number (e.g., 2 → '01', 3 → '001').
  */
-function downloadPageAsImage(canvas, pageNumber) {
-    console.log(`Starting download of page ${pageNumber}...`);
+function downloadPageAsImage(canvas, pageNumber, digitNumber) {
+    // Pad the page number according to digitNumber
+    const paddedPageNumber = pageNumber.toString().padStart(digitNumber, '0');
 
     // Convert the canvas to a Blob and download
     canvas.toBlob(blob => {
@@ -49,14 +53,14 @@ function downloadPageAsImage(canvas, pageNumber) {
         }
 
         const downloadLink = document.createElement('a');
-        downloadLink.download = `page_${pageNumber}.png`;
+        downloadLink.download = `page_${paddedPageNumber}.png`;
         downloadLink.href = URL.createObjectURL(blob);
         downloadLink.click();
 
         // Revoke the URL object
         URL.revokeObjectURL(downloadLink.href);
 
-        console.log(`Page ${pageNumber} download completed.`);
+        console.log(`Page ${paddedPageNumber} download completed.`);
     });
 }
 
